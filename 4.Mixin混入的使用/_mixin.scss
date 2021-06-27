@@ -1,0 +1,6 @@
+@mixin singleline-ellipsis($width: 800px) {
+    width: $width;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

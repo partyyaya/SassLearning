@@ -1,0 +1,21 @@
+@mixin ipad($height) {
+    @media screen and (min-width: 768px) {
+        height: $height;
+        @content;
+    }
+    height: $height;
+}
+
+.header {
+    width: 1000px;
+    @include ipad(100px){
+        width: 500px;
+    }
+}
+
+.header {
+    color: blue;
+    @include ipad(200px){
+        color: red;
+    }
+}

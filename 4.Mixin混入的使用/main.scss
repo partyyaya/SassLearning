@@ -1,0 +1,9 @@
+@import 'mixin';
+
+.text{
+    @include singleline-ellipsis(600px);
+}
+
+.content-text{
+    @include singleline-ellipsis;
+}

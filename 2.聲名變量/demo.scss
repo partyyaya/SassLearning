@@ -1,0 +1,18 @@
+$small-font: 14px/2;
+$text-color: #555;
+$default-font: 'microsoft yahei';
+
+.title {
+    color: lighten($text-color, 20%);
+    font-family: $default-font;
+}
+
+.sub-title {
+    color: darken($text-color, 20%);
+    font-size: $small-font;
+}
+
+.text {
+    color: lighten($text-color, 20%);
+    font-size: $small-font*2;
+}

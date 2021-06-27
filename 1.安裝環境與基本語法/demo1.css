@@ -1,0 +1,12 @@
+.header span {
+  color: red;
+}
+
+.header span:active {
+  color: green;
+}
+
+.header span:hover {
+  color: blue;
+}
+/*# sourceMappingURL=demo1.css.map */
