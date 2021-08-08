@@ -1,7 +1,7 @@
 ## SASS 知識點
 
 ### 安裝
-- 1. 安裝 VSCODE
+- 1 安裝 VSCODE
 - 2. 安裝插件 Live Sass Compiler 
     - 此插件可按下右下的 watch sass 進行編譯
     - 當開始 watching 時會自動生成對應的css檔(可利用分欄功能觀看編譯後效果)
